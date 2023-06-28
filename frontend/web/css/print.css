@@ -1,0 +1,30 @@
+@media print {
+    @page { 
+        size: landscape;
+        
+    }
+  
+    table.center {
+        margin-top:10px;
+        margin-left:10px; 
+        margin-right:10px;
+        margin-bottom:10px;
+        width: 98%;
+        height: 90%;
+      }
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        border-style: hidden;
+        /*Remove all the outside
+        borders of the existing table*/
+    }
+    table td {
+        padding: 0.5rem;
+        border: 1px solid blue;
+    }
+    table th {
+        padding: 0.5rem;
+        border: 1px solid orange;
+    }
+    }
